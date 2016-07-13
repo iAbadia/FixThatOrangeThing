@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "Unizar Moodle2 Orange Fix",
+    "description": "Kill that orange thing!!",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "js": ["fixOrange.js"],
+        "matches": ["https://moodle2.unizar.es/add/mod/assign/*"]
+    }],
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+}
