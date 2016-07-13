@@ -7,4 +7,7 @@
 * Enjoy your healthy retinas
 
 ## Disclaimer
+This's been only tested for the student-end submit page
+
+### Hey!
 I know this is a shitty extension, 30 minutes of my life gone forever. Don't give me shit over it, please :)
