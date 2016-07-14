@@ -11,7 +11,7 @@
     "content_scripts": [{
         "css": ["styles.css"],
         "js": ["fixOrange.js"],
-        "matches": ["https://moodle2.unizar.es/add/mod/assign/*"]
+        "matches": ["https://moodle2.unizar.es/add/*"]
     }],
     "permissions": [
         "activeTab",
